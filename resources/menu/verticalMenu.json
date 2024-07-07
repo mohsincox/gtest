@@ -1,0 +1,61 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Home",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "pages-home"
+    },
+    {
+      "url": "/raw-materials",
+      "icon": "menu-icon tf-icons bx bx-file",
+      "name": "Raw Material",
+      "slug": "raw-materials-2"
+    },
+    {
+      "url": "/suppliers",
+      "name": "Supplier",
+      "icon": "menu-icon tf-icons bx bx-error",
+      "slug": "suppliers"
+    },
+    {
+      "url": "/customers",
+      "name": "Customer",
+      "icon": "menu-icon tf-icons bx bx-log-in",
+      "slug": "customers"
+    },
+    {
+      "url": "/order-nos",
+      "name": "Order No",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "order-nos"
+    },
+    {
+      "name": "Test",
+      "icon": "menu-icon tf-icons bx bx-food-menu",
+      "slug": "app-invoice",
+      "submenu": [
+        {
+          "url": "app/invoice/list",
+          "name": "List",
+          "slug": "app-invoice-list"
+        },
+        {
+          "url": "app/invoice/preview",
+          "name": "Preview",
+          "slug": "app-invoice-preview"
+        },
+        {
+          "url": "app/invoice/edit",
+          "name": "Edit",
+          "slug": "app-invoice-edit"
+        },
+        {
+          "url": "app/invoice/add",
+          "name": "Add",
+          "slug": "app-invoice-add"
+        }
+      ]
+    }
+  ]
+}
